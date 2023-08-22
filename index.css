@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container {
+    max-width: fit-content;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: transparent;
+    margin: 12px 2px 12px 2px;
+    box-shadow: 2px 2px 12px black, inset 2px 12px 12px white;
+}
+
+.inp {
+    max-width: max-content;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 4em;
+    flex-direction: column;
+}
+
+.inp span {
+    color: #fff;
+    margin-left: -0.1em;
+    border-radius: 0px 8px 8px 0px;
+    padding: 0.9em;
+    background-color: #219eac;
+}
+
+.inp div>input {
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.9em;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 12px black;
+    max-width: fit-content;
+    padding: 1em;
+}
+
+.button button {
+    padding: 12px;
+    border: 0px;
+    background-color: #226c74;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 12px white;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer a,
+span {
+    font-size: 1.2em;
+    color: red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    box-shadow: inset 2px 2px 12px white;
+}
